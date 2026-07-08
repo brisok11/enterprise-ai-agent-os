@@ -33,20 +33,21 @@ Production-grade multi-agent AI automation platform.
                    |
         AI Agent Orchestration Layer
               (LangGraph)
+
                    |
-    ----------------------------------
-    |                |                |
+     -----------------------------------
+     |                |                |
 Customer Agent   Recruiter Agent   Sales Agent
-    |                |                |
-    ----------------------------------
+     |                |                |
+     -----------------------------------
+
                    |
               Tool Layer
                    |
- ------------------------------------
- |          |          |             |
-Email     CRM       Database      Search
-API       API        API          API
-
+    -------------------------------------
+    |          |          |             |
+   Email      CRM      Database      Search
+    API       API        API          API
 
                    |
               Knowledge Layer
@@ -56,7 +57,7 @@ API       API        API          API
                    |
               LLM Layer
 
-          OpenAI GPT-4/5 API
+           OpenAI GPT-4/5 API
 
 
                    |
