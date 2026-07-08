@@ -21,7 +21,6 @@ Production-grade multi-agent AI automation platform.
 
 ## Architecture
 
-
                  USERS
                    |
                    |
@@ -32,28 +31,22 @@ Production-grade multi-agent AI automation platform.
                    |
                    |
         AI Agent Orchestration Layer
-              (LangGraph)
+              (LangGraph)                   
+    ----------------------------------
+    |                |                |
+    
+Customer Agent   Recruiter Agent   Sales Agent
 
+    |                |                |
+    ----------------------------------
                    |
-                   
-     -----------------------------------
-     |                |                |
-
- Customer Agent   Recruiter Agent   Sales Agent
-
-     |                |                |
-     -----------------------------------
-
-                   |
-                   
               Tool Layer
-              
                    |
-    -------------------------------------
-    |          |          |             |
+ ------------------------------------
+ |          |          |             |
+Email     CRM       Database      Search
+API       API        API          API
 
-   Email      CRM      Database      Search
-    API       API        API          API
 
                    |
               Knowledge Layer
@@ -63,14 +56,13 @@ Production-grade multi-agent AI automation platform.
                    |
               LLM Layer
 
-           OpenAI GPT-4/5 API
+          OpenAI GPT-4/5 API
 
 
                    |
              Human Approval
              Review System
-
-
+             
 ## Demo
 
 
