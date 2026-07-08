@@ -35,17 +35,23 @@ Production-grade multi-agent AI automation platform.
               (LangGraph)
 
                    |
+                   
      -----------------------------------
      |                |                |
-Customer Agent   Recruiter Agent   Sales Agent
+
+ Customer Agent   Recruiter Agent   Sales Agent
+
      |                |                |
      -----------------------------------
 
                    |
+                   
               Tool Layer
+              
                    |
     -------------------------------------
     |          |          |             |
+
    Email      CRM      Database      Search
     API       API        API          API
 
